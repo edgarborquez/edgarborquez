@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atrox Outdoor</title>
+    <link rel="icon" type="image/png" href="images/logoAtroxpng.png">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/script.js" ></script>
+
+    <script type="text/javascript" src="https://slideshow.triptracker.net/slide.js"></script>
+    <script type="text/javascript">
+        
+        var viewer1 = new PhotoViewer();
+        viewer1.add('../Test_Atrox/images/cueva/1.jpg');
+        viewer1.add('../Test_Atrox/images/cueva/2.jpg');
+        viewer1.add('../Test_Atrox/images/cueva/3.jpg');
+        viewer1.add('../Test_Atrox/images/cueva/4.jpg');
+
+        viewer1.setBackgroundColor('#ffffff');
+        viewer1.setBorderWidth(2);
+        viewer1.setFontSize(11);
+        viewer1.setShadeColor('#807872');
+
+        var viewer2 = new PhotoViewer();
+        viewer2.add('../Test_Atrox/images/astronomia/1.jpg');
+        viewer2.add('../Test_Atrox/images/astronomia/2.jpg');
+        viewer2.add('../Test_Atrox/images/astronomia/3.jpg');
+        viewer2.add('../Test_Atrox/images/astronomia/4.jpg');
+        viewer2.add('../Test_Atrox/images/astronomia/5.jpg');
+        
+
+        viewer2.setBackgroundColor('#ffffff');
+        viewer2.setBorderWidth(2);
+        viewer2.setFontSize(11);
+        viewer2.setShadeColor('#807872');
+
+        var viewer3 = new PhotoViewer();
+        viewer3.add('../Test_Atrox/images/rappel/1.jpg');
+        viewer3.add('../Test_Atrox/images/rappel/2.jpg');
+        viewer3.add('../Test_Atrox/images/rappel/3.jpg');
+        viewer3.add('../Test_Atrox/images/rappel/4.jpg');
+        viewer3.add('../Test_Atrox/images/rappel/5.jpg');
+        
+
+        viewer3.setBackgroundColor('#ffffff');
+        viewer3.setBorderWidth(2);
+        viewer3.setFontSize(11);
+        viewer3.setShadeColor('#807872');
+    </script>
+</head>
+    <body>
+        <i class="icon-menu burger-button" id="burger-menu"></i>
+        <header class="header">   
+            
+            <div class="container">
+                <figure class="logo">
+                    <img src="images/logoAtroxpng.png" height="50" alt="logo">
+                </figure>                         
+                <nav class="menu">
+                    <ol>
+                        <li><a class="link" href="#portafolio">Actividades</a></li>
+                        <li><a class="link" href="#eventos">Experiencia</a></li>
+                        <li><a class="link" href="#contacto">Contactanos</a></li>
+                    </ol>           
+                </nav>
+            </div>
+        </header>
+        <section class="hero">  
+            <div class="container">
+                <h1>
+                    Bienvenido a<strong> Atrox Outdoor </strong> <br>disfruta las <strong>Actividades Outdoor</strong> 
+                    <br> que realizaremos con <strong> Seguridad</strong>
+                </h1>
+                <img class="hero-image" src="images/IMG_20191225_174305.jpg" alt="imagen principal del sitio" width="500" height="300">
+            </div>
+        </section>         
+        <section id="portafolio" class="portfolio">
+            <div class="container">
+                <h2 > Actividades Outdoor</h2>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Cueva Santa Marta</h3>
+                        <p class="project-description">Visita un lugar emblematico y adentrate en las entrañas de Hermosillo, conoceras la camara de los murcielagos, 
+                            el ojo y pondremos a prueba tu sentido de orientacion en el laberinto</p> 
+                        <p class="project-url"><small><strong><a href="javascript:void(viewer1.show(0))">Ver mas</a></strong></small></p>               
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" src="images/cueva.jpg" alt="react" width="500">
+                    </figure>
+                </article>
+                 <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Taller Astronomia</h3>
+                        <p class="project-description">Aprenderas a identificar constelaciones, estrellas, planetas y comprenderas
+                            el movimiento del cielo para poder ORIENTARTE ¡Es un curso Express enfocado al tema de supervivencia! 
+                        </p>                
+                        <p class="project-url"><small><strong><a href="javascript:void(viewer2.show(0))">Ver mas</a></strong></small></p>
+                    </div>
+                        <figure class="project-imageContainer">
+                            <img class="project-image" src="images/astro.jpg" alt="react" width="500">
+                        </figure>
+                </article>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Rappel Espejo y Mina</h3>
+                        <p class="project-description">Conoceras las medidas de seguridad necesarias en las actividades de altura, aprenderas tecnica basica de descenso,
+                            luego pasaremos a lo emocionante rapeles de 40 y 50 metros de altura
+                        </p>                
+                        <p class="project-url"><small><strong><a href="javascript:void(viewer3.show(0))">Ver mas</a></strong></small></p>
+                    </div>
+                    <figure class="project-imageContainer">
+                            <img class="project-image" src="images/rp.jpg" alt="react" width="500">
+                        </figure>
+                </article>
+            </div>
+        </section> 
+        <div class="container">
+            <h2 class="event-list-title">Mas de nuestras actividades</h2>
+        </div>
+        <section id="eventos" class="event-list"> 
+            <div class="container">
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image"  src="images/pirinola.PNG" width="500" alt="eventos">
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Curso de Exploracion y Supervivencia</h3>
+                        <p class="event-description">Eres una persona intrepida y te gustan las actividades Outdoor, en nuestro curso
+                            aprederas teoria y tecnica basica para realizar actividades Outdoor.
+                        </p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platica</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image"  src="images/club.jpeg" width="500" alt="club Atrox">
+                        <!-- <video class="html-video" src="video/RedBull.mp4" width="1280" height="720" controls></video> -->
+                        <!-- <img class="event-image"  src="images/platzi-conf.jpg" width="500" alt="eventos"> -->
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Club AtroxOutdoor</h3>
+                        <p class="event-description">Forma parte de nuestra comunidad Outdoor donde tendremos eventos VIP,
+                            pondremos en practica todo lo adquirido en nuestro Curso de Exploracion.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platica</a>
+                    </div>
+                </article>
+                <!-- <article class="event">
+                    <figure class="event-imageContainer">
+                        <div class="event-detail">
+                             <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/7pgYpatTlGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                            <img class="event-image"  src="images/pirinola.PNG" width="500" alt="eventos">
+                        </div>
+                         <img class="event-image"  src="images/platzi-conf.jpg" width="500" alt="eventos"> 
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Camping & Rappel Playa el Colorado</h3>
+                        <p class="event-description">Acompañanos en nuestra acampada en una de las playas mas increibles del Estado,
+                            hablaremos de constelaciones y si eres amante de la adrenalina haz rapel de 50 mts terminando dentro de la playa.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platica</a>
+                    </div>
+                     <div class="event-detail">
+                        <h3 class="event-title">Camping & Rappel Playa el Colorado</h3>
+                        <p class="event-description">Acompañanos en nuestra acampada en una de las playas mas increibles del Estado,
+                            hablaremos de constelaciones y si eres amante de la adrenalina haz rapel de 50 mts terminando dentro de la playa.
+                        </p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platica</a>
+                    </div> 
+                </article> -->
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image"  src="images/camping.jpg" width="500" alt="camping colorado">
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Camping Playa el Colorado</h3>
+                        <p class="event-description">Acompañanos en nuestro camping donde hablaremos de las constelaciones visibles
+                            y si eres amante de la adrenalina podras realizar un rapel de 50 mts terminando dentro del agua
+                        </p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platica</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image"  src="images/cd.jpg" width="500" alt="huasabas">
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Cruz del Diablo</h3>
+                        <p class="event-description">Practica Cañonismo con nosotros, mientras disfrutas de un recorrido impresionante estaras
+                            haciendo actividades que muy pocas personas se atreven a realizar... Estas Listo!!
+                        </p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platica</a>
+                    </div>
+                </article>
+            </div>
+         </section>
+        <section id="contacto" class="contact"> 
+            <div class="container">
+                <!-- <div class="whatsapp">
+                    <p>Mantente Informado de nuestros Eventos</p>
+                </div> -->
+                <div class="social">
+                    <p>Mantente Informado de nuestros Eventos</p>
+                    <a href="https://chat.whatsapp.com/HrbCXvP8H7RCr4e9Ku0Rg7" class="social-link twitter" target="_blank"></a> 
+                    <a href="https://www.facebook.com/Atrox-Outdoor-418768818896826/" class="social-link facebook" target="_blank"></a>
+                    <a href="https://chat.whatsapp.com/BRmAaU5wfWkBUJ01qNOERQ" class="social-link github" target="_blank"></a>
+                    <a href="https://instagram.com/palmerosbadachi/" class="social-link instagram"></a>
+                </div>
+            </div> 
+            </section>
+        <footer class="footer"> 
+            <div class="container">
+                <div>
+                    <p>Derechos reservados <strong>Atrox Outdoor &copy</strong></p>
+                </div>
+                <div>
+                    <p>Designed by &nbsp; <a href="https://www.instagram.com/edkazh" target="_blank"><i class="fa fa-instagram" style="font-size:20px">edkazh</i></a> </p>
+                </div>                
+            </div>
+        </footer>  
+    </body>
+</html>
+
+
+
+
+
